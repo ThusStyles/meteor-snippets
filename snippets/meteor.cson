@@ -1,0 +1,76 @@
+'.html':
+  'Meteor Template':
+    "prefix": "mtp"
+    "body": """
+      <template name="${1:name}">
+        ${2}
+      </template>
+    """,
+  'Meteor each':
+    "prefix": "mea"
+    "body": """
+      {{#each ${1:collections}}}
+       ${2}
+      {{/each}}
+    """,
+  'Meteor if':
+    "prefix": "mif"
+    "body": """
+      {{#if ${1:statement}}}
+        ${2}
+      {{/if}}
+    """,
+  'Meteor if else':
+    "prefix": "mife"
+    "body": """
+      {{#if ${1:statement}}}
+        ${2}
+      {{else}}
+        ${3}
+      {{/if}}
+    """
+'.js':
+  'Meteor Publish':
+    "prefix": "mpub"
+    "body": """
+      Meteor.publish("${1:name}", function(${2:argument}){
+        ${3}
+      });
+    """,
+  'Meteor Subscribe':
+    "prefix": "msub"
+    "body": """
+      Meteor.subscribe("${1:name}", ${2:argument});
+    """,
+  'Template Rendered':
+    "prefix": "mren"
+    "body": """
+      Template.${1:name}.rendered = function(){
+        ${2}
+      }
+    """,
+  'Template Helpers':
+    "prefix": "mhel"
+    "body": """
+      Template.${1:name}.helpers({
+        ${2:helper}: function(){
+          ${3}
+        }
+      });
+    """,
+  'Template Events':
+    "prefix": "mevn"
+    "body": """
+      Template.${1:name}.events({
+        "${2:event}": function(e, t){
+          ${3}
+        }
+      });
+    """,
+  'Template Created':
+    "prefix": "mcre"
+    "body": """
+      Template.${1:name}.created = function(){
+        ${2}
+      }
+    """,

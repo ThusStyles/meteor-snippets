@@ -1,0 +1,14 @@
+{
+  "name": "meteor-snippets",
+  "main": "./lib/meteor-snippets",
+  "version": "0.0.0",
+  "description": "Meteor Snippets with tab completion",
+  "activationEvents": ["meteor-snippets:toggle"],
+  "repository": "https://github.com/ThusStyles/meteor-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
