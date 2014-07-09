@@ -78,7 +78,7 @@
   'Meteor Publish':
     "prefix": "mpub"
     "body": """
-      Meteor.publish "${1:name}", ->
+      Meteor.publish "${1:name}", (${2:argument}) ->
         ${3}
     """,
   'Meteor Subscribe':
