@@ -6,84 +6,84 @@ Basic snippets to make meteor development faster in atom
 
 **mtp**
 
-'''html
+```html
 <template name="name">
   ...
 </template>
-'''
+```
 
 **mea**
 
-'''javascript
+```javascript
 {{#each collection}}
   ...
 {{/each}}
-'''
+```
 
 **mif**
 
-'''javascript
+```javascript
 {{#if statement}}
   ...
 {{/if}}
-'''
+```
 
 **mife**
 
-'''javascript
+```javascript
 {{#if statement}}
   ...
 {{else}}
   ...
 {{/if}}
-'''
+```
 
 **mpub**
 
-'''javascript
+```javascript
 Meteor.publish("name", function(argument){
   ...
 });
-'''
+```
 
 **msub**
 
-'''javascript
+```javascript
 Meteor.subscribe("name", argument);
-'''
+```
 
 **mren**
 
-'''javascript
+```javascript
 Template.name.rendered = function(){
   ...
 }
-'''
+```
 
 **mcre**
 
-'''javascript
+```javascript
 Template.name.created = function(){
   ...
 }
-'''
+```
 
 **mhel**
 
-'''javascript
+```javascript
 Template.name.helpers({
   helper: function(){
     ...
   }
 });
-'''
+```
 
 **mevn**
 
-'''javascript
+```javascript
 Template.name.events({
   'event': function(e, t){
     ...
   }
 });
-'''
+```
