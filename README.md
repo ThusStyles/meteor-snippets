@@ -14,7 +14,7 @@ Basic snippets to make meteor development faster in atom
 
 **mea**
 
-```javascript
+```handlebars
 {{#each collection}}
   ...
 {{/each}}
@@ -22,7 +22,7 @@ Basic snippets to make meteor development faster in atom
 
 **mif**
 
-```javascript
+```handlebars
 {{#if statement}}
   ...
 {{/if}}
@@ -30,7 +30,7 @@ Basic snippets to make meteor development faster in atom
 
 **mife**
 
-```javascript
+```handlebars
 {{#if statement}}
   ...
 {{else}}
