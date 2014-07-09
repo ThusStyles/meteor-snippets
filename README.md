@@ -2,6 +2,8 @@
 
 Basic snippets to make meteor development faster in atom
 
+Works with Javascript + Coffeescript!
+
 ## Examples
 
 **mtp**
