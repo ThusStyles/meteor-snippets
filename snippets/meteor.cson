@@ -10,7 +10,7 @@
     "prefix": "mea"
     "body": """
       {{#each ${1:collections}}}
-       ${2}
+        ${2}
       {{/each}}
     """,
   'Meteor if':
@@ -84,7 +84,7 @@
   'Meteor Subscribe':
     "prefix": "msub"
     "body": """
-      Meteor.subscribe "${1:name}", argument
+      Meteor.subscribe "${1:name}", ${2:argument}
     """,
   'Template Rendered':
     "prefix": "mren"
