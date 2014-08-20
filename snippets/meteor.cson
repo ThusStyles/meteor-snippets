@@ -29,6 +29,33 @@
         ${3}
       {{/if}}
     """
+'.jade':
+  'Meteor Template':
+    "prefix": "mtp"
+    "body": """
+      template(name='${1:name}')>
+        ${2}
+    """,
+  'Meteor each':
+    "prefix": "mea"
+    "body": """
+      each ${1:collections}
+        ${2}
+    """,
+  'Meteor if':
+    "prefix": "mif"
+    "body": """
+      if ${1:statement}
+        ${2}
+    """,
+  'Meteor if else':
+    "prefix": "mife"
+    "body": """
+      if ${1:statement}
+        ${2}
+      else
+        ${3}
+    """
 '.js':
   'Meteor Publish':
     "prefix": "mpub"
