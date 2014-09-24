@@ -42,6 +42,15 @@
     "body": """
       Meteor.subscribe("${1:name}", ${2:argument});
     """,
+  'Meteor Methods':
+    'prefix': 'mmeth'
+    'body': """
+      Meteor.methods({
+        "${1:name}": function (${2:argument}) {
+          ${3}
+        }
+      });
+    """,
   'Template Rendered':
     "prefix": "mren"
     "body": """
@@ -86,6 +95,13 @@
     "body": """
       Meteor.subscribe "${1:name}", ${2:argument}
     """,
+  'Meteor Methods':
+    'prefix': 'mmeth'
+    'body': """
+      Meteor.methods
+        "${1:name}": (${2:argument}) ->
+          ${3}
+    """
   'Template Rendered':
     "prefix": "mren"
     "body": """

@@ -54,6 +54,15 @@ Meteor.publish("name", function(argument){
 Meteor.subscribe("name", argument);
 ```
 
+**mmeth**
+```javascript
+Meteor.methods({
+  "name": function (argument) {
+    ...
+  }
+});
+```
+
 **mren**
 
 ```javascript
