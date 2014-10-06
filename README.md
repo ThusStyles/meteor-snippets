@@ -40,6 +40,43 @@ Works with Javascript + Coffeescript!
 {{/if}}
 ```
 
+**cola**
+
+```javascript
+Collection.allow({
+  insert: function (...) {
+    ...
+  },
+  update: function (...) {
+    ...
+  },
+  remove: function (..) {
+    ...
+  }
+  ...
+});
+```
+
+**colde**
+
+```javascript
+Collection.deny({
+  update: function (...) {
+    ...
+  },
+  remove: function (...) {
+    ...
+  }
+  ...
+});
+```
+
+**mcol**
+
+```javascript
+Collection = new Meteor.collection("collection");
+```
+
 **mpub**
 
 ```javascript
