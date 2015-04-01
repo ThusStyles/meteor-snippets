@@ -105,13 +105,6 @@
   'Template Rendered':
     "prefix": "mren"
     "body": """
-      Template.${1:name}.rendered = function(){
-        ${2}
-      }
-    """,
-  'Template onRendered':
-    "prefix": "moren"
-    "body": """
       Template.${1:name}.onRendered = function(){
         ${2}
       }
@@ -137,26 +130,12 @@
   'Template Created':
     "prefix": "mcre"
     "body": """
-      Template.${1:name}.created = function(){
-        ${2}
-      }
-    """,
-  'Template onCreated':
-    "prefix": "mocre"
-    "body": """
       Template.${1:name}.onCreated = function(){
         ${2}
       }
     """,
   'Template Destroyed':
     "prefix": "mdes"
-    "body": """
-      Template.${1:name}.destroyed = function(){
-        ${2}
-      }
-    """,
-  'Template onDestroyed':
-    "prefix": "modes"
     "body": """
       Template.${1:name}.onDestroyed = function(){
         ${2}
@@ -184,12 +163,6 @@
   'Template Rendered':
     "prefix": "mren"
     "body": """
-      Template.${1:name}.rendered ->
-        ${2}
-    """,
-  'Template onRendered':
-    "prefix": "moren"
-    "body": """
       Template.${1:name}.onRendered ->
         ${2}
     """,
@@ -210,23 +183,11 @@
   'Template Created':
     "prefix": "mcre"
     "body": """
-      Template.${1:name}.created ->
-        ${2}
-    """,
-  'Template onCreated':
-    "prefix": "mocre"
-    "body": """
       Template.${1:name}.onCreated ->
         ${2}
     """,
   'Template Destroyed':
     "prefix": "mdes"
-    "body": """
-      Template.${1:name}.destroyed ->
-        ${2}
-    """,
-  'Template onDestroyed':
-    "prefix": "modes"
     "body": """
       Template.${1:name}.onDestroyed ->
         ${2}
