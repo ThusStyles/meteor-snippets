@@ -103,25 +103,25 @@ Meteor.methods({
 **mren**
 
 ```javascript
-Template.name.onRendered = function(){
+Template.name.onRendered(function(){
   ...
-}
+});
 ```
 
 **mcre**
 
 ```javascript
-Template.name.onCreated = function(){
+Template.name.onCreated(function(){
   ...
-}
+});
 ```
 
 **mdes**
 
 ```javascript
-Template.name.onDestroyed = function(){
+Template.name.onDestroyed(function(){
   ...
-}
+});
 ```
 
 **mhel**

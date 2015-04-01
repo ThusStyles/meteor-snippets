@@ -105,9 +105,9 @@
   'Template Rendered':
     "prefix": "mren"
     "body": """
-      Template.${1:name}.onRendered = function(){
+      Template.${1:name}.onRendered(function(){
         ${2}
-      }
+      });
     """,
   'Template Helpers':
     "prefix": "mhel"
@@ -130,16 +130,16 @@
   'Template Created':
     "prefix": "mcre"
     "body": """
-      Template.${1:name}.onCreated = function(){
+      Template.${1:name}.onCreated(function(){
         ${2}
-      }
+      });
     """,
   'Template Destroyed':
     "prefix": "mdes"
     "body": """
-      Template.${1:name}.onDestroyed = function(){
+      Template.${1:name}.onDestroyed(function(){
         ${2}
-      }
+      });
     """
 '.coffee':
   'Meteor Publish':
