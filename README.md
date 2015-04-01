@@ -124,7 +124,7 @@ Template.name.created = function(){
 }
 ```
 
-**modes**
+**mocre**
 
 ```javascript
 Template.name.onCreated = function(){
