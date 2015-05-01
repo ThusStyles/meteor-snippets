@@ -3,9 +3,11 @@
   "main": "./lib/meteor-snippets",
   "version": "0.3.0",
   "description": "Meteor Snippets with tab completion",
-  "activationEvents": [
-    "meteor-snippets:toggle"
-  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "meteor-snippets:toggle"
+    ]
+  },
   "repository": "https://github.com/ThusStyles/meteor-snippets",
   "license": "MIT",
   "engines": {
