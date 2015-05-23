@@ -1,7 +1,7 @@
 {
   "name": "meteor-snippets",
   "main": "./lib/meteor-snippets",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Meteor Snippets with tab completion",
   "activationCommands": {
     "atom-workspace": [
