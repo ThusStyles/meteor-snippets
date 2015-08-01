@@ -106,7 +106,7 @@
   'Meteor Collection':
     "prefix": "mcol"
     "body": """
-      ${1:Collection} = new Meteor.Collection("${2:collection}");
+      ${1:Collection} = new Mongo.Collection("${2:collection}");
     """,
   'Meteor Publish':
     "prefix": "mpub"
