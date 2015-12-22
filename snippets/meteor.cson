@@ -9,6 +9,13 @@
         ${2}
       </template>
     """,
+  'Meteor with':
+    "prefix": "mwh"
+    "body": """
+      {{#with ${1:collections}}}
+        ${2}
+      {{/with}}
+    """,    
   'Meteor each':
     "prefix": "mea"
     "body": """
